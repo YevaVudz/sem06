@@ -1,0 +1,50 @@
+/*   BOX-SIZING   */
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+/*   BASE   */
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Averia Serif Libre", serif;
+    color: #eca136;
+
+    background-color: rgb(9, 26, 33);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*   MISE EN PAGE   */
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*  MODULES   */
+
+header {
+    width: 1000px;
+    background-color: rgba(15, 38, 49, 95.0);
+
+    position: fixed;
+    text-align: center;
+    left: 50%; 
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 40px;
+    
+}
