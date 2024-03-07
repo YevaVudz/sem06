@@ -61,6 +61,33 @@ header {
 .contenu{
     margin-top: 100px;
     margin-bottom: 0;
-    max-width: 100%;
-
 }
+
+img{
+  max-width: 100%; 
+}
+
+.contenu ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+    gap: 45px;
+    padding: 0;
+    list-style: none;
+      
+}
+
+.contenu li{
+    padding: 20px;
+    background-color: rgb(15, 38, 49);
+    border-radius: 10px;
+}
+
+.bouton{
+    background-color: white;
+    opacity: 50%;
+
+    size: 30px;
+}
+
+
