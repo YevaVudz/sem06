@@ -38,13 +38,29 @@ header {
     width: 1000px;
     background-color: rgba(15, 38, 49, 95.0);
 
-    position: fixed;
-    text-align: center;
-    left: 50%; 
-    border-radius: 20px;
+    margin-left: calc(50% - 500px);
+
+    z-index: 1;
+    position: fixed; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
-h1{
+.wrapper h1 {
     font-size: 40px;
-    
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+
+    size: 80px;
+}
+
+
+
+.contenu{
+    margin-top: 100px;
+    margin-bottom: 0;
+    max-width: 100%;
+
 }
